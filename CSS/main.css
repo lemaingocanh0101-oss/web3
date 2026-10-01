@@ -60,3 +60,9 @@
     background: #f4a9c6;
     color: white;
 }
+#container {
+    border-radius: 8px;
+}
+#container ul li a {
+    border-radius: 6px;
+}

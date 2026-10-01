@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Classified</title>
+</head>
+
+<body bgcolor="#bff7f7">
+
+    <form>
+
+        <h1 style="color:red;">
+            Online Classifieds Search Form
+        </h1>
+
+        <hr>
+
+        <h3>1) Search for a classified in the following sections:</h3>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="radio" name="section" value="Employment">
+                    Employment
+                </td>
+
+                <td>
+                    <input type="radio" name="section" value="Personal">
+                    Personal
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="section" value="For Sale" checked>
+                    For Sale
+                </td>
+
+                <td>
+                    <input type="radio" name="section" value="Miscellaneous">
+                    Miscellaneous
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="section" value="Housing">
+                    Housing
+                </td>
+
+                <td>
+                    <input type="radio" name="section" value="All">
+                    All of the above
+                </td>
+            </tr>
+        </table>
+
+        <h3>2) Search the following publications:</h3>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" checked>
+                    Midwest times
+                </td>
+
+                <td>
+                    <input type="checkbox">
+                    Modern News
+                </td>
+
+                <td>
+                    <input type="checkbox">
+                    Employment Today
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" checked>
+                    Great Lakes Classifieds
+                </td>
+
+                <td>
+                    <input type="checkbox">
+                    Middleton Daily
+                </td>
+
+                <td>
+                    <input type="checkbox">
+                    Cashtown Daily News
+                </td>
+            </tr>
+        </table>
+
+        <h3>
+            3) From to
+            <input type="text" placeholder="mm/dd/yy">
+            to
+            <input type="text" placeholder="mm/dd/yy">
+        </h3>
+
+        <h3>
+            4) Enter a few keywords to describe the classified.
+        </h3>
+
+        <input type="text" size="80">
+
+        <h3>
+            5) Click one of the options below:
+        </h3>
+
+        <table>
+            <tr>
+
+                <td align="center">
+                    <img
+                        src="Search.gif"
+                        alt="Search"
+                        onclick="alert('Đang thực hiện tìm kiếm...')"
+                        style="cursor:pointer;">
+                </td>
+
+                <td align="center">
+                    <a href="help.html">
+                        <img src="Help.gif" alt="Help">
+                    </a>
+                </td>
+
+                <td align="center">
+                    <img
+                        src="Cancel.gif"
+                        alt="Cancel"
+                        onclick="document.forms[0].reset()"
+                        style="cursor:pointer;">
+                </td>
+
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
